@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @RequestMapping("/url")
 public class CategoriaResource {
     @RequestMapping(method =RequestMethod.GET )
+    
     public String listar(){
         return "Rest ok";
     }
